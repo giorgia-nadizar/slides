@@ -315,9 +315,12 @@ Testing the **extensibility** of JGEA.
   to give functionalities
 
 ---
+class: middle, center
 
-## Thanks!
+# Thanks!
 
-Any unanswered questions?
+Any unanswered question?
 
-[giorgia.nadizar@phd.units.it](mailto:giorgia.nadizar@phd.units.it)
+<span>&#9993;</span> [giorgia.nadizar@phd.units.it](mailto:giorgia.nadizar@phd.units.it)
+
+<span>&#127760;</span> [giorgia-nadizar.github.io](https://giorgia-nadizar.github.io/)
