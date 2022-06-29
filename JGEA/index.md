@@ -319,7 +319,7 @@ class: middle, center
 
 # Thanks!
 
-Any unanswered question?
+Any unanswered questions?
 
 <span>&#9993;</span> [giorgia.nadizar@phd.units.it](mailto:giorgia.nadizar@phd.units.it)
 
