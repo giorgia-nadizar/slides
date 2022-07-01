@@ -313,6 +313,7 @@ Testing the **extensibility** of JGEA.
   - Identify any additional elements needed (as fields of the class)
   - Implement the `update()` method (and `@Override` other methods if needed)
   to give functionalities
+4. Test the implemented EA on a benchmark
 
 ---
 class: middle, center
