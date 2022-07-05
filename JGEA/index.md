@@ -287,6 +287,16 @@ public interface ListenerFactory<E, K> {
 
 ---
 
+## Listener example
+
+Tabular printer, to print the evolutionary progress on screen
+
+<p align="center">
+  <img src="images/listener.png" alt="Listener example."/>
+</p>
+
+---
+
 ## Case study 1: experimenting with JGEA
 
 Testing the **solidity** of JGEA.
