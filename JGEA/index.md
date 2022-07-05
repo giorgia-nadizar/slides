@@ -322,9 +322,21 @@ JGEA is
 - Solid <span>&#10004;</span>
 - Extensible <span>&#10004;</span>
 
-<span>&#xf09b;</span> [github.com/ericmedvet/jgea](https://github.com/ericmedvet/jgea)
+Thanks to modularity, abstraction, and a clear modeling of concepts.
 
-<span>&#127760;</span> [medvet.inginf.units.it/jgea/](https://medvet.inginf.units.it/jgea/)
+<br/><br/>
+
+And if you liked it, you're welcome to join us
+.cols[
+.c50[
+<i class="fa fa-github" aria-hidden="true"></i>
+[github.com/ericmedvet/jgea](https://github.com/ericmedvet/jgea)
+]
+.c50[
+<i class="fa fa-file-text" aria-hidden="true"></i>
+[medvet.inginf.units.it/jgea/](https://medvet.inginf.units.it/jgea/)
+]
+]
 
 ---
 class: middle, center
@@ -333,6 +345,6 @@ class: middle, center
 
 Any unanswered questions?
 
-<span>&#9993;</span> [giorgia.nadizar@phd.units.it](mailto:giorgia.nadizar@phd.units.it)
+<i class="fa fa-envelope" aria-hidden="true"></i> [giorgia.nadizar@phd.units.it](mailto:giorgia.nadizar@phd.units.it)
 
-<span>&#127760;</span> [giorgia-nadizar.github.io](https://giorgia-nadizar.github.io/)
+<i class="fa fa-link" aria-hidden="true"></i> [giorgia-nadizar.github.io](https://giorgia-nadizar.github.io/)
