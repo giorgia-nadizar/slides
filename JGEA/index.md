@@ -313,6 +313,26 @@ Testing the **solidity** of JGEA.
 
 ---
 
+## Bonus point: solid and *scalable*
+
+.cols[
+.c90[
+```java
+public record LocomotionProblem(
+  Function<Robot, Outcome> qualityFunction,
+  Comparator<Outcome> totalOrderComparator
+) implements TotalOrderQualityBasedProblem<Robot, Outcome> {}
+```
+]
+.c10[![Robot images](images/robot.png)]
+]
+
+<p align="center">
+  <img src="images/scalability.png" alt="Scalability example."/>
+</p>
+
+---
+
 ## Case study 2: adding a new EA to JGEA
 
 Testing the **extensibility** of JGEA.
