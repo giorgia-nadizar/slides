@@ -157,17 +157,17 @@ All relevant EAs share an *iterative* structure:
 ```java
 public interface IterativeSolver<T, P extends Problem<S>, S> extends Solver<P, S> {
   default Collection<S> solve(
-    P problem, RandomGenerator random,
-    ExecutorService executor, Listener<? super T> listener
+      P problem, RandomGenerator random,
+      ExecutorService executor, Listener<? super T> listener
   ) throws SolverException {
-    T state = init(problem, random, executor);
+    T state = `init`(problem, random, executor);
     listener.listen(state);
-    while (!terminate(problem, random, executor, state)) {
-      update(problem, random, executor, state);
+    while (!`terminate`(problem, random, executor, state)) {
+      `update`(problem, random, executor, state);
       listener.listen((T) state.immutableCopy());
     }
     listener.done();
-    return extractSolutions(problem, random, executor, state);
+    return `extractSolutions`(problem, random, executor, state);
   }
 }
 ```
@@ -228,24 +228,27 @@ public record Individual<G, S, Q>(
 ## Individual creation
 
 1. Obtain a genotype
-  - *From scratch*
-  ```java
-  public interface Factory<T> {
-    List<T> build(int n, RandomGenerator random);
-  }
-  ```
+
+- *From scratch*
+
+```java
+public interface Factory<T> {
+  List<T> build(int n, RandomGenerator random);
+}
+```
   - *With genetic operators*
-  ```java
-  public interface GeneticOperator<G> {
-    List<? extends G> apply(
-      List<? extends G> parents,
-      RandomGenerator random
-    );
-    int arity();
-  }
-  ```
-2. Map it to a phenotype
-3. Evaluate its fitness
+
+```java
+public interface GeneticOperator<G> {
+  List<? extends G> apply(List<? extends G> parents, RandomGenerator random);
+  int arity();
+}
+```
+
+<ol start="2">
+  <li>Map it to a phenotype</li>
+  <li>Evaluate its fitness</li>
+</ol>
 
 ---
 
@@ -255,8 +258,8 @@ Selection for reproduction or survival
 ```java
 public interface Selector<T> {
   <K extends T> K select(
-    PartiallyOrderedCollection<K> ks,
-    RandomGenerator random
+      PartiallyOrderedCollection<K> ks,
+      RandomGenerator random
   );
 }
 ```
