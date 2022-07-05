@@ -35,6 +35,15 @@ pre {
 .cols {
   display: flex;
 }
+.c10 {
+  flex: 10%;
+}
+.c15 {
+  flex: 15%;
+}
+.c20 {
+  flex: 20%;
+}
 .c25 {
   flex: 25%;
 }
@@ -52,6 +61,15 @@ pre {
 }
 .c70 {
   flex: 70%;
+}
+.c75 {
+  flex: 75%;
+}
+.c80 {
+  flex: 80%;
+}
+.c90 {
+  flex: 90%;
 }
 .cols > div:nth-child(1) {
   padding-right: 0.5em;
