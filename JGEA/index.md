@@ -316,7 +316,7 @@ Testing the **solidity** of JGEA.
 ## Bonus point: solid and *scalable*
 
 .cols[
-.c90[
+.c75[
 ```java
 public record LocomotionProblem(
   Function<Robot, Outcome> qualityFunction,
