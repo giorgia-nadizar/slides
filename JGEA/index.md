@@ -316,6 +316,17 @@ Testing the **extensibility** of JGEA.
 4. Test the implemented EA on a benchmark
 
 ---
+# Summing up... did I convince you?
+
+JGEA is
+- Solid <span>&#10004;</span>
+- Extensible <span>&#10004;</span>
+
+<span>&#xf09b;</span> [github.com/ericmedvet/jgea](https://github.com/ericmedvet/jgea)
+
+<span>&#127760;</span> [medvet.inginf.units.it/jgea/](https://medvet.inginf.units.it/jgea/)
+
+---
 class: middle, center
 
 # Thanks!
