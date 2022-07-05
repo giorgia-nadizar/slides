@@ -186,7 +186,7 @@ public abstract class AbstractPopulationBasedIterativeSolver<
 ```
 - `init()` $\rightarrow$ initialize the state and sample initial population
 - `terminate()` $\rightarrow$ check termination condition
-- `exctactSolutions()` $\rightarrow$ take the best individual(s) from the population
+- `extractSolutions()` $\rightarrow$ take the best individual(s) from the population
 <br/><br/>
 - `update()` not implemented $\rightarrow$ characterizes each EA
 
