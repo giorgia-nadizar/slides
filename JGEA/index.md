@@ -142,7 +142,7 @@ public interface Solver<P extends Problem<S>, S> {
   ) throws SolverException;
 }
 ```
-- Provides the caller with solutions
+- Provides the caller with solutions of type `S`
 - Solves problem of type `P`
 - `RandomGenerator` for *repeatability*
 - `ExecutorService` for distributing computation (aimed at *efficiency*)
