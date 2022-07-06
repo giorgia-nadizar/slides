@@ -287,13 +287,14 @@ public interface ListenerFactory<E, K> {
 
 ---
 
-## Listener example
+## Listener examples
 
-Tabular printer, to print the evolutionary progress on screen
-
-<p align="center">
-  <img src="images/listener.png" alt="Listener example."/>
-</p>
+.cols[
+.col60[.center.h40ex[![Tabular printer](images/tabular-printer.png)]
+]
+.col40[.center.h40ex[![Telegram updater](images/telegram.jpg)]
+]
+]
 
 ---
 

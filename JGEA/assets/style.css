@@ -98,6 +98,9 @@ img {
 .h25ex img {
   height: 25ex;
 }
+.h30ex img {
+  height: 30ex;
+}
 .h40ex img {
   height: 40ex;
 }
