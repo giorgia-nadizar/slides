@@ -314,14 +314,14 @@ Testing the **solidity** of JGEA.
 
 ---
 
-## Bonus point: solid and *scalable*
+## CS 1: solid and *scalable*
 
 .cols[
 .c75[
 ```java
 public record LocomotionProblem(
-  Function<Robot, Outcome> qualityFunction,
-  Comparator<Outcome> totalOrderComparator
+    Function<Robot, Outcome> qualityFunction,
+    Comparator<Outcome> totalOrderComparator
 ) implements TotalOrderQualityBasedProblem<Robot, Outcome> {}
 ```
 ]
@@ -351,31 +351,31 @@ Testing the **extensibility** of JGEA.
 
 ---
 
-## Case study 2: re-implementing Map Elites
+## CS 2: re-implementing Map Elites
 
 .cols[
 .c30[![Map Elites pseudocode](images/mapelites.png)]
 .c70[
 ```java
 public class MapElites<G,
-  P extends QualityBasedProblem<S, Q>,
-  S, Q> extends AbstractPopulationBasedIterativeSolver
-  <MapElites.State<G, S, Q>, P, G, S, Q> {
-      private final Mutation<G> mutation;
-      private final Function<Individual<G, S, Q>,
+    P extends QualityBasedProblem<S, Q>,
+    S, Q> extends AbstractPopulationBasedIterativeSolver
+    <MapElites.State<G, S, Q>, P, G, S, Q> {
+  private final Mutation<G> mutation;
+  private final Function<Individual<G, S, Q>,
         List<Double>> featuresExtractor;
-      private final List<MapOfElites.Feature> features;
-      /***/
-      @Override
-      public void update(P problem,
-          RandomGenerator random,
-          ExecutorService executor,
-          State<G, S, Q> state)
-          throws SolverException {
-            /***/
-            state.mapOfElites.addAll(offspring);
-            /***/
-      }
+  private final List<MapOfElites.Feature> features;
+  /***/
+  @Override
+  public void update(P problem,
+      RandomGenerator random,
+      ExecutorService executor,
+      State<G, S, Q> state
+  ) throws SolverException {
+    /***/
+    state.mapOfElites.addAll(offspring);
+    /***/
+  }
 }
 ```
 ]
