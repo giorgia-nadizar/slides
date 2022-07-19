@@ -5,6 +5,7 @@ class: middle, center
 ### Stefano Furlan, _Eric Medvet_, Giorgia Nadizar, Federico Pigozzi
 
 .h10ex[![ERAL Lab logo](images/erallab-logo.png)]
+.hspace5[]
 .h10ex[![University of Trieste logo](images/sigillo-units.png)]
 
 Evolutionary Robotics and Artificial Life Lab, University of Trieste, Italy
