@@ -129,15 +129,15 @@ Genotype encodes all traits.
 .cols[
 .c50[
 **Real → Artificial**
-- click "on" the world
+- Click "on" the world
   - add food (**.cg[good] action**)
   - kill a worm (**.cr[bad] action**)
-- presence
+- Presence
   - temperature changes depending on human observer position
 ]
 .c50[
 **Artificial → Real**
-- real-time overview
+- Real-time overview
 ]
 ]
 
@@ -193,9 +193,8 @@ Possible causes
 
 # Results: influence on humans
 
-Premise:
-- 36 participants
-- age from 20 to 55 (mostly in 20-35)
+36 participants:
+- age from 20 to 55 (mostly in 20–35)
 - 33% female, 67% males
 - 50% with a pet, 50% without
 - almost all familiar with videogames
@@ -204,8 +203,8 @@ Premise:
 
 ## Is ALife a thing?
 
-- before: .ttt[Do you think artificial life exists?]
-- after: .ttt[How would you rate your perceived involvement?]
+- Before: .ttt[Do you think artificial life exists?]
+- After: .ttt[How would you rate your perceived involvement?]
 
 .center[.h25ex[![RQ2-a plot](images/rq2-a.png)]]
 
@@ -213,8 +212,8 @@ Premise:
 
 ## Behavior intention and consistency (.cr[bad] vs. .cg[good])
 
-- before: .ttt[How will you behave towards the creatures in the simulation?]
-- after: .ttt[How would you define your behavior towards the creatures in the simulation?]
+- Before: .ttt[How will you behave towards the creatures in the simulation?]
+- After: .ttt[How would you define your behavior towards the creatures in the simulation?]
 
 .center[.h25ex[![RQ2-b plot](images/rq2-b.png)]]
 
@@ -224,14 +223,14 @@ No one planned a .cr[bad] behavior!
 
 ## Hurting artificial creatures
 
-- during: ratio of .cg[good] on all actions (on average: 94%)
-- before: .ttt[Do you think artificial creatures can suffer?]
-- after: .ttt[Do you think you have hurt these creatures?]
+- During: ratio of .cg[good] on all actions (on average: 94%)
+- Before: .ttt[Do you think artificial creatures can suffer?]
+- After: .ttt[Do you think you have hurt these creatures?]
 
 .center[.h25ex[![RQ2-c plot](images/rq2-c.png)]]
 
 .ttt[If you have killed any creature, why have you?]
-- curiosity, mistake, "I thought it was not good enough"
+- curiosity, mistake, "I thought it was **not good enough**"
 
 ---
 
