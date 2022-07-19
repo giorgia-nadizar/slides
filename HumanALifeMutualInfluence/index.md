@@ -2,12 +2,14 @@ class: middle, center
 
 # On the Mutual Influence of Human and Artificial Life: an Experimental Investigation
 
-Stefano Furlan, Eric Medvet, Giorgia Nadizar, Federico Pigozzi
+### Stefano Furlan, _Eric Medvet_, Giorgia Nadizar, Federico Pigozzi
 
-<font size="2">Evolutionary Robotics and Artificial Life Lab, University of Trieste, Italy
-</font>
+.h10ex[![ERAL Lab logo](images/erallab-logo.png)]
+.h10ex[![University of Trieste logo](images/sigillo-units.png)]
 
-ALife 2022, virtual, 20/7/2022
+Evolutionary Robotics and Artificial Life Lab, University of Trieste, Italy
+
+#### ALife 2022, virtual, 20/7/2022
 
 ---
 
@@ -22,28 +24,221 @@ Your browser does not support the video tag.
 
 ---
 
-# Humans and AI: so far (not) so good
+# Beyond fiction
+
+.center.h15ex[![Tay](images/tay.png)]
+
+.center[![Tay examples](images/tay2.jpg)]
+
+---
+
+# Humans and ALife: _a few_ big questions
+
+1. Do humans behave well with ALife forms?
+2. Is adaptable ALife influenced by humans behavior?
+3. Are humans aware of this potential influence?
+
+---
+
+# An attempt to give a (sketch of a) scientifc answer
+
+Recipe:
+1. build an **ALife system**
+  - influenceable
+  - adaptable
+2. define, trigger, observe, and analyze human **interactions**
+3. define, observe, and analyze **influence** on both sides
+
+---
+
+# Building the ALife systems
+
+Requirements:
+- look **alive**
+  - not necessarly like real life
+  - considering the realism of today's videogames
+- allow **interactions**, i.e., allow information moving along both directions
+  - the real (humans') world can perceive the artificial world
+  - the artificial world can perceive the real world
+- adaptable
+  - something has to be free of changing over time
+- **simple** enough to be "understood"
+
+---
+
+## Environment and creatures
+
+A world with a fixed number of **worm-like creatures** looking for food
+
+.center[![ALife world overview](images/worms.png)]
+
+---
+
+## Perception and actuation
+
+Each worm:
+
+- **senses the environment** (sight, smell, touch, temperture)
+
+.center[
+.h15ex[![Sight](images/worm-sight.png)]
+.h15ex[![Smell](images/smell.png)]
+.h15ex[![Touch](images/worm-touch.png)]
+.h15ex[![Temperature](images/worm-temp.png)]
+]
+
+- **processes** perception with a feed forward artificial neural network
+- **actuates** moving the head ahead or rotating it
+
+---
+
+## Life cycle
+
+Worms:
+- consume energy (fixed time rate)
+- acquire energy by eating
+  - physical contact with food items
+
+When energy goes to zero, a worm **dies**
+- a new worm immediately spawns in the artificial world
+- some food appears in place of the dead worm
+
+---
+
+## Adaptation
+
+On the evolutionary time scale!
+
+Worms may differ in:
+- morphology (number of segments, flagella, ..., color¹)
+- brain (NN parameters, perception memory length)
+
+Genotype encodes all traits.
+
+**Evolutionary pressure**: when a new worm is generated, the genotype
+- is a mutation of a exhisting worm (chosen with roulette wheel selection based on age), with $p=90\%$
+- a random genotype, with $p=10\%$
+
+.note[1: purposefully unrelevant in the artificial world alone!]
+
+---
+
+# Interactions
 
 .cols[
-.col40[
-![Hp](images/hp.png)
-![Tay](images/tay.png)
+.c50[
+**Real → Artificial**
+- click "on" the world
+  - add food (**.cg[good] action**)
+  - kill a worm (**.cr[bad] action**)
+- presence
+  - temperature changes depending on human observer position
 ]
-.col60[.center[![Tay examples](images/tay2.jpg)]
+.c50[
+**Artificial → Real**
+- real-time overview
 ]
+]
+
+.center[
+.h15ex[![Good action](images/feeding.jpg)]
+.hspace5[]
+.h15ex[![Bad action](images/killing.jpeg)]
 ]
 
 ---
 
-# Humans and ALife?
+# Measuring influence
 
-Much more than a Tamagotchi!
+.cols[
+.c50[
+### On ALife
 
-- Do artificial agents react to the actions of humans, displaying short-term adaptation in response to stimuli?
-- Do these actions influence the inherited traits of artificial creatures, steering their evolutionary path and long-term adaptation?
+Long term experiments¹
+- with humans doing .cg[good] or .cr[bad] actions
+- noting _worm metrics_:
+  - age
+  - traveled distance
+  - size
+]
+.c50[
+### On humans
 
-- Are humans aware of their influence on ALife?
-- Do they shift their conduct accordingly?
+User study:
+- let humans interact with ALife
+- collect answers to questions on key topics (_before_ and _after_ interaction), e.g.:
+  - .ttt[How will you behave towards the creatures in the simulation?]
+  - .ttt[Do you think you have hurt these creatures?]
+  - ...
+]
+]
+
+.note[1: with **simulated** humans]
+
+---
+
+# Results: influence on ALife
+
+![Humans' impact on ALife](images/rq1.png)
+
+Unfortunately, **no clearly visible** impact (but worms appear to evolve)
+
+Possible causes
+- too short experiments
+- mixed effects:
+  - both good and bad actions relieve evolutionary pressure making food hunting ability less advantageous
+
+---
+
+# Results: influence on humans
+
+Premise:
+- 36 participants
+- age from 20 to 55 (mostly in 20-35)
+- 33% female, 67% males
+- 50% with a pet, 50% without
+- almost all familiar with videogames
+
+---
+
+## Is ALife a thing?
+
+- before: .ttt[Do you think artificial life exists?]
+- after: .ttt[How would you rate your perceived involvement?]
+
+.center[.h25ex[![RQ2-a plot](images/rq2-a.png)]]
+
+---
+
+## Behavior intention and consistency (.cr[bad] vs. .cg[good])
+
+- before: .ttt[How will you behave towards the creatures in the simulation?]
+- after: .ttt[How would you define your behavior towards the creatures in the simulation?]
+
+.center[.h25ex[![RQ2-b plot](images/rq2-b.png)]]
+
+No one planned a .cr[bad] behavior!
+
+---
+
+## Hurting artificial creatures
+
+- during: ratio of .cg[good] on all actions
+- before: .ttt[Do you think artificial creatures can suffer?]
+- after: .ttt[Do you think you have hurt these creatures?]
+
+.center[.h25ex[![RQ2-c plot](images/rq2-c.png)]]
+
+.ttt[If you have killed any creature, why have you?]
+- curiosity, mistake, "I thought it was not good enough"
+
+---
+
+# Take home message
+
+- Complex interactions between humans and artificial agents call for an analysis of **emergent interplays**
+  - it's hard: time/space scales are long/large
+- Humans appear to be **potentially sensible** to artificial life
 
 ---
 
