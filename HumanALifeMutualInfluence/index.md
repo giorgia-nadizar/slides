@@ -223,7 +223,7 @@ No one planned a .cr[bad] behavior!
 
 ## Hurting artificial creatures
 
-- during: ratio of .cg[good] on all actions
+- during: ratio of .cg[good] on all actions (on average: 94%)
 - before: .ttt[Do you think artificial creatures can suffer?]
 - after: .ttt[Do you think you have hurt these creatures?]
 
