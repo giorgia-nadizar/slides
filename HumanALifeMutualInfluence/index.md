@@ -52,7 +52,7 @@ Recipe:
 
 ---
 
-# Building the ALife systems
+# Building the ALife system
 
 Requirements:
 - look **alive**
