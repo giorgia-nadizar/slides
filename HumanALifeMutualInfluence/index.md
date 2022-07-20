@@ -153,7 +153,7 @@ Genotype encodes all traits.
 
 .cols[
 .c50[
-### On ALife
+**On ALife**
 
 Long term experiments¹
 - with humans doing .cg[good] or .cr[bad] actions
@@ -163,7 +163,7 @@ Long term experiments¹
   - size
 ]
 .c50[
-### On humans
+**On humans**
 
 User study:
 - let humans interact with ALife
