@@ -144,17 +144,26 @@ name: ml-definitions
 
 .center[![ML-PIE](images/pie.png)]
 
-.footnote Model Learning with Personalized Interpretability Estimation (ML-PIE); Marco Virgolin, Andrea De Lorenzo, Francesca Randone, Eric Medvet, Mattias Wahde 
+.footnote Model Learning with Personalized Interpretability Estimation (ML-PIE); Marco Virgolin, Andrea De Lorenzo, Francesca Randone, Eric Medvet, Mattias Wahde
 
 ---
 
-# Findings
+# Current developments
+
+- Generalize model encoding → not only features for formulae
+- Validate the approach against (a lot of) simulated users
+- Study on how users behavior influences the search
 
 ---
 
 # Can we bring this to robotics?
 
-Open question!
+- ...why not!
+
+- Some open points:
+  - What type of interpretability are we aiming at?
+  - How to "encode" a robot? Or maybe its controller? Or its behavior?
+  - Is it computationally viable?
 
 ---
 
