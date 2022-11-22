@@ -54,8 +54,9 @@ name: ml-definitions
 Probably heard _waaaay_ too much about them, but just in case, let's recap
 
 .center[
-<video width="450" height="260">
+<video width="450" height="260" controls>
   <source src="videos/vsr-elephant.mp4" type="video/mp4">
+Your browser does not support the video tag.
 </video>
 ]
 
@@ -157,15 +158,15 @@ NCA-like distributed
   - Flat terrain during evolution
   - Rougher terrains to test generalization
 
-.center.h30ex[![SNN](images/results.png)]
+.center.w75p[![SNN](images/results.png)]
 
 ---
 
 # What is the key of success?
 
-.center.h30ex[![SNN](images/results-b.png)]
+.center.w75p[![SNN](images/results-b.png)]
 
-- Having a state increases performance (RNNs win)
+- Having a state increases performance (RNNs win!)
 - But SNNs lead to more natural behaviors → less prone to reality gap
 
 ---
