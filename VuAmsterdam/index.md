@@ -130,7 +130,7 @@ name: ml-definitions
 
 # Starting simple: interpretable symbolic formulae
 
-- Symbolic Regression to find them → two objectives
+- Symbolic Regression to find them → Genetic Programming with two objectives
   - Accurate → MSE, RMSE, $R^2$
   - Interpretable → ?
 
@@ -138,7 +138,13 @@ name: ml-definitions
 
 # Interpretability is subjective
 
+- Human-in-the-loop system
+- Ask feedback on models found by GP
+- Use feedback to train an estimator, i.e., a neural network
+
 .center[![ML-PIE](images/pie.png)]
+
+.footnote Model Learning with Personalized Interpretability Estimation (ML-PIE); Marco Virgolin, Andrea De Lorenzo, Francesca Randone, Eric Medvet, Mattias Wahde 
 
 ---
 
