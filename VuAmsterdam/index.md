@@ -133,7 +133,7 @@ NCA-like distributed
 
 # Spiking Neural Networks
 
-.center.h25ex[![SNN](images/snn.png)]
+.center.h20ex[![SNN](images/snn.png)]
 
 - Model membrane potential of neurons over time
 - Allow plasticity mechanisms
