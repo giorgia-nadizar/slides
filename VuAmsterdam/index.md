@@ -115,16 +115,16 @@ Your browser does not support the video tag.
 .cols[
 .c20[.center[
 Hetero distributed
-![Hetero distributed](images/hetero.png)]
-]
+.h15ex[![Hetero distributed](images/hetero.png)]
+]]
 .c20[.center[
 Homo distributed
-![Homo distributed](images/homo.png)]
-]
+.h15ex[![Homo distributed](images/homo.png)]
+]]
 .c20[.center[
 NCA-like distributed
-![NCA distributed](images/nca.png)]
-]
+.h15ex[![NCA distributed](images/nca.png)]
+]]
 ]
 
 ---
