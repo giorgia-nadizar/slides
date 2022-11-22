@@ -131,26 +131,40 @@ NCA-like distributed
 
 # Spiking Neural Networks
 
-.center.h15ex[![SNN](images/snn.png)]
+.center.h25ex[![SNN](images/snn.png)]
 
 - Model membrane potential of neurons over time
 - Allow plasticity mechanisms
-- .cr[Warning:] encode information differently → conversion required
-
----
-
-# Why SNN?
-
+- Encode information differently → conversion required
 
 ---
 
 # Spiking Embodied NCA
+
+- Instantiate distributed controllers with SNNs
+- Conversion of sensory inputs and control outputs
+- Communication in terms of spike trains
 
 .footnote[Collective control of modular soft robots via embodied Spiking Neural Cellular Automata; Nadizar, Medvet, Nichele, Pontes-Filho]
 
 ---
 
 # Does it work?
+
+- Task of locomotion
+  - Flat terrain during evolution
+  - Rougher terrains to test generalization
+
+.center.h30ex[![SNN](images/results.png)]
+
+---
+
+# What is the key of success?
+
+.center.h30ex[![SNN](images/results-b.png)]
+
+- Having a state increases performance (RNNs win)
+- But SNNs lead to more natural behaviors → less prone to reality gap
 
 ---
 class: middle, center
@@ -163,9 +177,10 @@ name: ml-definitions
 # What does it have to do with Embodied AI?
 
 - AI within a body, e.g., a robot → possibly great impacts on real world
-- _Understanding_ how it works is of paramount importance
 
 .center[![Terminator](images/terminator.jpeg)]
+
+- _Understanding_ how it works is of paramount importance
 
 ---
 
@@ -174,6 +189,10 @@ name: ml-definitions
 - Symbolic Regression to find them → Genetic Programming with two objectives
   - Accurate → MSE, RMSE, ...
   - Interpretable → ?
+
+- Key points:
+  - What is interpretability?
+  - How can we quantify it?
 
 ---
 
@@ -189,11 +208,20 @@ name: ml-definitions
 
 ---
 
-# Current developments
+# In the previous episode...
 
-- Generalize model encoding → not only features for formulae
+Some findings from MLPIE 1
+
+---
+
+# Current research directions
+
+- Generalize model encoding
+  - Not only features for formulae
 - Validate the approach against (a lot of) simulated users
+  - How can we simulate them, if we don't know what interpretability is?
 - Study on how users behavior influences the search
+  - Are all users equally dedicated to giving feedback?
 
 ---
 
