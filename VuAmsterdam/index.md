@@ -1,6 +1,6 @@
 class: middle, center
 
-# Voxel-based Soft Robots and other stories
+# Evolutionary Robotics and other stories
 
 .h10ex[![ERAL Lab logo](images/erallab-logo.png)]
 .hspace5[]
@@ -53,7 +53,7 @@ name: ml-definitions
 
 Probably heard _waaaay_ too much about them, but just in case, let's recap
 
-.center[
+.h30ex.center[
 <video controls>
   <source src="videos/vsr-elephant.mp4" type="video/mp4">
 Your browser does not support the video tag.
@@ -64,7 +64,7 @@ Your browser does not support the video tag.
 
 # Relevance
 
-- Combination of softness and modularity → vast design freedom
+- Combination of softness and modularity → large design freedom
 - Reconfigurability, self-assembly → robot factory
 - Embodied cognition paradigm → intelligence does not only reside in the brain
 - Bio-inspired features → study real world phenomena for ALife
@@ -76,7 +76,7 @@ Your browser does not support the video tag.
 - Rigid bodies → endow with mass, prevent excessive deformation
 - Spring → alter the area, mimic softness
 
-.center[![VSR mechanical model](images/voxel-model.png)]
+.h30ex.center[![VSR mechanical model](images/voxel-model.png)]
 
 ---
 
@@ -115,7 +115,7 @@ Your browser does not support the video tag.
 class: middle, center
 name: ml-definitions
 
-# Interpretability
+# Interpretable AI
 
 ---
 
@@ -131,7 +131,7 @@ name: ml-definitions
 # Starting simple: interpretable symbolic formulae
 
 - Symbolic Regression to find them → Genetic Programming with two objectives
-  - Accurate → MSE, RMSE, $R^2$
+  - Accurate → MSE, RMSE, ...
   - Interpretable → ?
 
 ---
