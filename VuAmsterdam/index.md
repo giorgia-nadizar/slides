@@ -191,8 +191,8 @@ name: ml-definitions
 # Starting simple: interpretable symbolic formulae
 
 - Symbolic Regression to find them → Genetic Programming with two objectives
-  - Accurate → MSE, RMSE, ...
-  - Interpretable → ?
+  - Accuracy → MSE, RMSE, ...
+  - Interpretability → ?
 
 - Key points:
   - What is interpretability?
