@@ -144,7 +144,7 @@ name: ml-definitions
 
 .center[![ML-PIE](images/pie.png)]
 
-.footnote Model Learning with Personalized Interpretability Estimation (ML-PIE); Marco Virgolin, Andrea De Lorenzo, Francesca Randone, Eric Medvet, Mattias Wahde
+.footnote[Model Learning with Personalized Interpretability Estimation (ML-PIE); Marco Virgolin, Andrea De Lorenzo, Francesca Randone, Eric Medvet, Mattias Wahde]
 
 ---
 
