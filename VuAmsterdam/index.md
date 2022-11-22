@@ -91,25 +91,55 @@ Your browser does not support the video tag.
 
 # Centralized neural controller
 
+- It gives the robot a "brain"
+- ...but it fails modularity
+
+.center.h30ex[![Centralized controller](images/centralized.png)]
+
+.footnote[Evolutionary Synthesis of Sensing Controllers for Voxel-based Soft Robots; Talamini, Medvet, Bartoli, De Lorenzo]
 
 ---
 
 # Distributed neural controller
 
+- Embracing modularity → each voxel can be an agent itself (almost!)
+
+.center.h30ex[![Distributed controller](images/distributed.png)]
+
+.footnote[Evolution of Distributed Neural Controllers for Voxel-based Soft Robots; Medvet, Bartoli, De Lorenzo, Fidel]
 
 ---
 
-# Pruning
+# ...many variants of _collective control_
 
-
----
-
-# Development
+.cols[
+.c25[.center[![Hetero distributed](images/hetero.png)]
+]
+.c25[.center[![Homo distributed](images/homo.png)]
+]
+.c25[.center[![NCA distributed](images/nca.png)]
+]
+]
 
 ---
 
 # Spiking Neural Networks
 
+
+---
+
+# Why SNN?
+
+
+---
+
+# Spiking Embodied NCA
+
+.footnote[Collective control of modular soft robots via embodied Spiking Neural Cellular Automata; Nadizar, Medvet, Nichele, Pontes-Filho]
+
+---
+
+# Does it work?
 
 ---
 class: middle, center
@@ -144,7 +174,7 @@ name: ml-definitions
 
 .center[![ML-PIE](images/pie.png)]
 
-.footnote[Model Learning with Personalized Interpretability Estimation (ML-PIE); Marco Virgolin, Andrea De Lorenzo, Francesca Randone, Eric Medvet, Mattias Wahde]
+.footnote[Model Learning with Personalized Interpretability Estimation (ML-PIE); Virgolin, De Lorenzo, Randone, Medvet, Wahde]
 
 ---
 
