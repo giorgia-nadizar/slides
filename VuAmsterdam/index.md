@@ -53,8 +53,8 @@ name: ml-definitions
 
 Probably heard _waaaay_ too much about them, but just in case, let's recap
 
-.h15ex.center[
-<video width="450" height="260" autoplay loop>
+.center[
+<video width="450" height="260">
   <source src="videos/vsr-elephant.mp4" type="video/mp4">
 </video>
 ]
