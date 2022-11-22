@@ -208,12 +208,6 @@ name: ml-definitions
 
 ---
 
-# In the previous episode...
-
-Some findings from MLPIE 1
-
----
-
 # Current research directions
 
 - Generalize model encoding
