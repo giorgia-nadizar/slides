@@ -53,7 +53,7 @@ name: ml-definitions
 
 Probably heard _waaaay_ too much about them, but just in case, let's recap
 
-.h30ex.center[
+.h15ex.center[
 <video controls>
   <source src="videos/vsr-elephant.mp4" type="video/mp4">
 Your browser does not support the video tag.
