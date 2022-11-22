@@ -158,13 +158,13 @@ NCA-like distributed
   - Flat terrain during evolution
   - Rougher terrains to test generalization
 
-.center.w75p[![SNN](images/results.png)]
+.center[.w75p[![SNN](images/results.png)]]
 
 ---
 
 # What is the key of success?
 
-.center.w75p[![SNN](images/results-b.png)]
+.center[.w75p[![SNN](images/results-b.png)]]
 
 - Having a state increases performance (RNNs win!)
 - But SNNs lead to more natural behaviors → less prone to reality gap
