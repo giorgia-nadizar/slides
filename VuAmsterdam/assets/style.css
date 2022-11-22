@@ -83,6 +83,9 @@ pre {
 img {
   max-width: 100%;
 }
+.w25p img {
+  width: 25%;
+}
 .w50p img {
   width: 50%;
 }

@@ -54,9 +54,8 @@ name: ml-definitions
 Probably heard _waaaay_ too much about them, but just in case, let's recap
 
 .h15ex.center[
-<video controls>
+<video width="450" height="260" autoplay loop>
   <source src="videos/vsr-elephant.mp4" type="video/mp4">
-Your browser does not support the video tag.
 </video>
 ]
 
@@ -74,7 +73,7 @@ Your browser does not support the video tag.
 # VSRs in simulation
 
 - Rigid bodies → endow with mass, prevent excessive deformation
-- Spring → alter the area, mimic softness
+- Springs → alter the area, mimic softness
 
 .h30ex.center[![VSR mechanical model](images/voxel-model.png)]
 
@@ -115,15 +114,15 @@ Your browser does not support the video tag.
 .cols[
 .c20[.center[
 Hetero distributed
-.h15ex[![Hetero distributed](images/hetero.png)]
+.w25p[![Hetero distributed](images/hetero.png)]
 ]]
 .c20[.center[
 Homo distributed
-.h15ex[![Homo distributed](images/homo.png)]
+.w25p[![Homo distributed](images/homo.png)]
 ]]
 .c20[.center[
 NCA-like distributed
-.h15ex[![NCA distributed](images/nca.png)]
+.w25p[![NCA distributed](images/nca.png)]
 ]]
 ]
 
