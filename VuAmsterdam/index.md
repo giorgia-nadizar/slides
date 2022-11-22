@@ -168,7 +168,7 @@ NCA-like distributed
 
 - Having a state can increase performance (see RNNs)
 - But homeostasis is the real key for SNNs!
-- Also SNNs lead to more natural behaviors → less prone to reality gap
+- Also, SNNs lead to more natural behaviors → less prone to reality gap
 
 ---
 class: middle, center
