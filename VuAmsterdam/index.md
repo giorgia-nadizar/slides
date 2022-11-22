@@ -20,8 +20,6 @@ Evolutionary Robotics and Artificial Life Lab, University of Trieste, Italy
 Nichele (from Østfold University College)
 - Currently, PhD intern at Centrum Wiskunde & Informatica with Marco Virgolin
 
-- Main research interest → bio-inspired embodied AI
-
 ---
 
 # Bio-inspired Embodied AI
