@@ -113,11 +113,17 @@ Your browser does not support the video tag.
 # ...many variants of _collective control_
 
 .cols[
-.c25[.center[![Hetero distributed](images/hetero.png)]
+.c20[.center[
+Hetero distributed
+![Hetero distributed](images/hetero.png)]
 ]
-.c25[.center[![Homo distributed](images/homo.png)]
+.c20[.center[
+Homo distributed
+![Homo distributed](images/homo.png)]
 ]
-.c25[.center[![NCA distributed](images/nca.png)]
+.c20[.center[
+NCA-like distributed
+![NCA distributed](images/nca.png)]
 ]
 ]
 
@@ -125,6 +131,11 @@ Your browser does not support the video tag.
 
 # Spiking Neural Networks
 
+.center.h15ex[![SNN](images/snn.png)]
+
+- Model membrane potential of neurons over time
+- Allow plasticity mechanisms
+- .cr[Warning:] encode information differently → conversion required
 
 ---
 
