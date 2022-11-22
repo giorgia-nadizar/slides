@@ -167,7 +167,7 @@ name: ml-definitions
 
 ---
 
-class: middle, center
+class: center
 
 # Thanks!
 
