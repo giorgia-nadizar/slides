@@ -220,6 +220,7 @@ name: ml-definitions
   - How can we simulate them, if we don't know what interpretability is?
 - Study on how users behavior influences the search
   - Are all users equally dedicated to giving feedback?
+  - Does the outcome depend upon this?
 
 ---
 
