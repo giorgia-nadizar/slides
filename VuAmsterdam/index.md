@@ -49,7 +49,7 @@ name: ml-definitions
 
 ---
 
-# Our take on ER → Voxel-based Soft Robots (VSR)
+# Voxel-based Soft Robots (VSR)
 
 Probably heard _waaaay_ too much about them, but just in case, let's recap
 
@@ -72,6 +72,9 @@ Your browser does not support the video tag.
 ---
 
 # VSRs in simulation
+
+- Rigid bodies → endow with mass, prevent excessive deformation
+- Spring → alter the area, mimic softness
 
 .center[![VSR mechanical model](images/voxel-model.png)]
 
@@ -118,8 +121,8 @@ name: ml-definitions
 
 # What does it have to do with Embodied AI?
 
-- AI within a body, e.g., a robot → possibly great impacts of real world
-- Particularly important to _understand_ how it works
+- AI within a body, e.g., a robot → possibly great impacts on real world
+- _Understanding_ how it works is of paramount importance
 
 .center[![Terminator](images/terminator.jpeg)]
 
@@ -133,7 +136,7 @@ name: ml-definitions
 
 ---
 
-# Interpretability is **subjective**
+# Interpretability is subjective
 
 .center[![ML-PIE](images/pie.png)]
 
@@ -153,6 +156,6 @@ class: middle, center
 
 # Thanks!
 
-.center[![Me as a robot](images/robot.png)]
+.center.h30ex[![Me as a robot](images/robot.png)]
 
 <i class="fa fa-envelope" aria-hidden="true"></i> [giorgia.nadizar@phd.units.it](mailto:giorgia.nadizar@phd.units.it)
