@@ -243,4 +243,4 @@ class: center
 
 <i class="fa fa-envelope" aria-hidden="true"></i> [giorgia.nadizar@phd.units.it](mailto:giorgia.nadizar@phd.units.it)
 
-<i class="fa-brands fa-twitter" aria-hidden="true"></i> [@GNadizar](https://twitter.com/GNadizar)
+<i class="fa fa-twitter" aria-hidden="true"></i> [@GNadizar](https://twitter.com/GNadizar)
