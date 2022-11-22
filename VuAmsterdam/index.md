@@ -39,7 +39,7 @@ Nichele (from Østfold University College)
 **Evolutionary Computation** in various flavors
 
 1. Evolutionary Robotics (ER) → our specialty back in Trieste
-2. Symbolic Regression & Interpretable AI → currently at CWI
+2. Interpretable AI (Symbolic Regression) → currently at CWI
 
 ---
 class: middle, center
