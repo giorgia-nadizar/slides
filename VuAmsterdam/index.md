@@ -114,14 +114,17 @@ Probably heard _waaaay_ too much about them, but just in case, let's recap
 .cols[
 .c20[.center[
 Hetero distributed
+
 .w75p[![Hetero distributed](images/hetero.png)]
 ]]
 .c20[.center[
 Homo distributed
+
 .w75p[![Homo distributed](images/homo.png)]
 ]]
 .c20[.center[
 NCA-like distributed
+
 .w75p[![NCA distributed](images/nca.png)]
 ]]
 ]
