@@ -18,7 +18,7 @@ Evolutionary Robotics and Artificial Life Lab, University of Trieste, Italy
 - PhD student in Applied Data Science & Artificial Intelligence at the Evolutionary Robotics and Artificial Life Lab
 (University of Trieste) under the supervision of Eric Medvet and Stefano
 Nichele (from Østfold University College)
-- Currently, PhD intern at Centrum Wiskunde & Informatica (as if you didn't know...)
+- Currently, PhD intern at Centrum Wiskunde & Informatica (_as if you didn't know..._)
 
 ---
 
@@ -35,23 +35,39 @@ Nichele (from Østfold University College)
 
 # Interpretability: what you probably already know
 
-- Explainability vs interpretability
+- Explainability vs. interpretability
 - Why the latter is better
-- Subjective notion of things
+- Subjective notion
+
+- Subjective... how to capture it?
+  - Human-in-the-loop system
+  - Collect feedback to train an estimator, i.e., a Neural Network (NN)
 
 ---
 
 # Not starting from scratch: ML-PIE
 
-- Worked to improve/generalize some previous work by Virgolin et al (_who is this mysterious guy?_)
+- Worked to improve/generalize some previous work by Virgolin et al. (_who is this mysterious guy?_)
 - "Model Learning with Personalized Interpretability Estimation"
 - SR with two objectives: accuracy (_nothing new here_) + subjective interpretability (_what's this?_)
+
+.center[![ML-PIE](images/pie.png)]
+
+.footnote[Model Learning with Personalized Interpretability Estimation (ML-PIE); Virgolin, De Lorenzo, Randone, Medvet, Wahde]
 
 ---
 
 # Slicing the PIE
 
-- 
+- Human-in-the-loop system
+- Ask feedback on models found by GP
+- Use feedback to train an estimator, i.e., a neural network
+
+
+
+---
+
+
 
 ---
 
