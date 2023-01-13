@@ -33,11 +33,11 @@ Nichele (from Østfold University College)
 
 ---
 
-# Interpretability: what you probably already know
+# Interpretability: nice but subjective
 
 - Explainability vs. interpretability
-- Why the latter is better
-- Subjective notion
+  - Why the latter is better
+
 
 - Subjective... how to capture it?
   - Human-in-the-loop system
@@ -47,9 +47,8 @@ Nichele (from Østfold University College)
 
 # Not starting from scratch: ML-PIE
 
-- Worked to improve/generalize some previous work by Virgolin et al. (_who is this mysterious guy?_)
-- "Model Learning with Personalized Interpretability Estimation"
-- SR with two objectives: accuracy (_nothing new here_) + subjective interpretability (_what's this?_)
+- Previous work by Virgolin et al.: ML-PIE
+- SR with two objectives: accuracy + subjective interpretability
 
 .center[![ML-PIE](images/pie.png)]
 
@@ -57,17 +56,56 @@ Nichele (from Østfold University College)
 
 ---
 
-# Slicing the PIE
+# Why more ingredients in this PIE?
 
-- Human-in-the-loop system
-- Ask feedback on models found by GP
-- Use feedback to train an estimator, i.e., a neural network
+- 
 
+---
+
+# Validating the new recipe
+
+- Simulation vs reality
+
+---
+
+# ...not really the cherry on the cake
 
 
 ---
 
+# Symbolic Regression: GP and TF
 
+- SR _can_ be more interpretable (whatever interpretability means) than other methods
+- Promising for critical applications (better or even necessary to know what's going on)
+
+.cols[
+.col50[
+  - GP (and variants)
+    - Good accuracy on both synthetic and real world problems
+    - Computationally expensive
+    - Low locality (sometimes akin to random search)
+]
+.col50[
+  - TF
+    - Low inference time w.r.t. GP
+    - Imprecise (to say the least) on real world data
+    - Up to 10 variables only (feature selection required)
+]
+]
+
+---
+
+# Maybe...
+
+![fusion](images/fusion.webp)
+
+- Can we combine GP and TF to get the best of both worlds?
+
+---
+
+# What's the plan?
+
+- 
 
 ---
 
