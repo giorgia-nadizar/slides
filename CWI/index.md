@@ -15,7 +15,7 @@ Evolutionary Robotics and Artificial Life Lab, University of Trieste, Italy
 # Who am I?
 
 - Computer Engineering background
-- PhD student in Applied Data Science & Artificial Intelligence at the Evolutionary Robotics and Artificial Life Lab
+- PhD student at the Evolutionary Robotics and Artificial Life Lab
 (University of Trieste) under the supervision of Eric Medvet and Stefano
 Nichele (from Østfold University College)
 - Currently, PhD intern at Centrum Wiskunde & Informatica (_as if you didn't know..._)
@@ -105,7 +105,52 @@ Nichele (from Østfold University College)
 
 # What's the plan?
 
-- 
+- Enhance GP using the TF within it to address
+  1. Locality
+  2. Computational costs
+
+---
+
+# Addressing locality
+
+- The issue 
+  - A small step in the search space might lead to a large step in the solution space (i.e., a large fitness change), and the other way around
+  - There is no notion of direction in the step we're making
+
+- Can we make our steps (i.e., the mutation) __informed__?
+  - In a numerical optimization problem we could just follow the gradient
+  - Is there any such thing in GP?
+
+---
+
+# Informed mutation operator (1)
+
+1. Select a subtree to mutate
+2. Compute its current output $d_\text{before}$
+3. Optimize its desired output w.r.t. the loss $\to$ $d_\text{after}$
+  - Function inversion
+  - Gradient descent
+
+---
+
+# Informed mutation operator (2)
+
+4. Find the tree which best fits $d_\text{after}$
+
+--
+
+we just found another regression problem:
+  - GP... nah, too expensive!
+  - TF could be promising here!
+
+---
+
+
+---
+
+# Addressing computational costs
+
+- If we call the TF for every
 
 ---
 
